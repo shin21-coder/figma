@@ -1,0 +1,104 @@
+header{
+  background:url('../../img/image01.png');
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  @media (max-width:1100px) {
+    height: 960px;
+  }
+
+}
+
+.header{
+
+  &__title-container{
+    position: relative;
+    top: 10%;
+    left:-6%;
+  }
+  &__logo{
+    position: relative;
+    top:20px;
+    left: -27%;
+    @media (max-width:1100px){
+      position: absolute;
+      left: 3%;
+    }
+
+  }
+  &__title{
+    font-size:4.8rem ;
+    @media(max-width: 720px){
+      font-size: 3.8rem;
+    }
+  }
+  &__title>span{
+    font-size: 8.2rem;
+    font-weight: bold;
+    @media (max-width:720px){
+      font-size: 4.2rem;
+    }
+  }
+  &__strong{
+    font-family: 'Roboto', sans-serif;
+    font-size:13rem;
+    font-weight: bold;
+    @media (max-width:720px){
+      font-size: 7rem;
+    }
+  }
+
+  &__subtitle-container{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top:24px;
+    @media (max-width:1100px){
+      position: absolute;
+      margin: 0;
+      top: 160%;
+      left: 49%;
+      text-align: left;
+      line-height: 142%;
+      font-size: 3.6rem;
+      
+    }
+    @media (max-width:720px){
+      font-size: 1.8rem;
+    }
+
+  }
+  &__logotitle{
+    position: absolute;
+    top: 11%;
+    left: 67%;
+    display: block;
+    @media (max-width:1100px) {
+      top: 36%;
+      // left: -100%;
+      left:0;
+    }
+    @media (max-width:720px){
+      zoom:.6;
+      top:25%;
+    }
+  }
+  &__btn{
+    background-color: #1A1A1A;
+    border-radius: 6px;
+    padding:15px 35px;
+    position: relative;
+    bottom: -200px;
+    right: 0%;
+    @media (max-width:1100px){
+      bottom:-570px;
+    }
+  }
+  &__btn>a{
+    color:white;
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+}

@@ -1,0 +1,30 @@
+.orange{
+  background-color: #FFA31A;
+  color: #1A1A1A;
+  text-align: center;
+  padding-top: 40px;
+
+  &__small{
+    font-size: 2.6rem;
+    font-weight: bold;
+    line-height:150% ;
+  }
+  &__large{
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 130%;
+  }
+
+  &__btn{
+    background-color: #1A1A1A;
+    border-radius: 6px;
+    padding:15px 35px;
+    margin:32px 0 50px 0;
+
+  }
+  &__btn>a{
+    color:white;
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+}
